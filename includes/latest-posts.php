@@ -5,7 +5,7 @@ $paged = (get_query_var('page')) ? get_query_var('page') : 0;
 // Arguments for WP_Query
 $args = array(
     'post_type' => 'post',      // Post type
-    'posts_per_page' => 5,     // Number of posts per page
+    'posts_per_page' => 9,     // Number of posts per page
     'orderby' => 'date',        // Order by date
     'order' => 'DESC',          // Descending order
     'paged' => $paged           // Current page number
